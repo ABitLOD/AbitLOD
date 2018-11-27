@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Agency - Start Bootstrap Theme</title>
+    <title>ABitLOD</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -30,7 +30,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">ABitLOD</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i class="fas fa-bars"></i>
@@ -38,20 +38,20 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav text-uppercase ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#services">Services</a>
+              <a class="nav-link js-scroll-trigger" href="#services">Starting Point</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+              <a class="nav-link js-scroll-trigger" href="#portfolio">12 Items</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+              <a class="nav-link js-scroll-trigger" href="#about">Our Model</a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#team">Team</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-            </li>
+            </li> -->
           </ul>
         </div>
       </div>
@@ -80,7 +80,7 @@
           <div class="col-md-4">
             <span class="fa-stack fa-4x">
               <i class="fas fa-circle fa-stack-2x text-primary"></i>
-              <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
+              <i class="fas fa-stack-1x fa-inverse"></i> <!-- old: <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"> -->
             </span>
             <h4 class="service-heading">Our Idea</h4>
             <p class="text-muted">How we got our idea and how we managed it at the beginnig: why did we choose the case of the Berlin Wall, how we intend to focus on the LOD and how we want to apply it on our case study.</p>
@@ -88,16 +88,18 @@
           <div class="col-md-4">
             <span class="fa-stack fa-4x">
               <i class="fas fa-circle fa-stack-2x text-primary"></i>
-              <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
+              <i class="fas fa-stack-1x fa-inverse"></i>  <!-- old: <i class="fas fa-laptop fa-stack-1x fa-inverse"-->
             </span>
             <h4 class="service-heading">More than the Berlin Wall</h4>
             <p class="text-muted">A broader view on the project: how our idea can be extended on landmarks. How we want to extend our idea in the Cultural Heritage starting from our case study.</p>
           </div>
           <div class="col-md-4">
-            <span class="fa-stack fa-4x">
-              <i class="fas fa-circle fa-stack-2x text-primary"></i>
-              <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
-            </span>
+          	<a class="portfolio-link" data-toggle="modal" href="#ERModelModal">
+				<span class="fa-stack fa-4x">
+				  <i class="fas fa-circle fa-stack-2x text-primary"></i>
+				  <i class="fas fa-stack-1x fa-inverse"></i> <!-- old: <i class="fas fa-lock fa-stack-1x fa-inverse"> -->
+				</span>
+			</a>
             <h4 class="service-heading">E/R Model</h4>
             <p class="text-muted">Look at this section to see our E/R model: a simple model to explain our idea into an entity-relation diagram.</p>
           </div>
@@ -350,7 +352,7 @@
               <!-- CONCEPTUAL MODEL -->
               <li>
                 <div class="timeline-image">
-                	<a class="portfolio-link" data-toggle="modal" href="#itemModal1">
+                	<a class="portfolio-link" data-toggle="modal" href="#ConceptualModal">
                 		<img class="rounded-circle img-fluid" src="img/about/3.jpg" alt="">
                 	</a>	
                 </div>
@@ -503,6 +505,38 @@
         </div>
       </div>
     </footer>
+    
+    <!-- E/R MODEL MODAL -->
+    
+    <div class="portfolio-modal modal fade" id="ERModelModal" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <h2 class="text-uppercase">E/R MODEL</h2>
+                  <p class="item-intro text-muted">A simple way to represent our Idea.</p>
+                  <img class="img-fluid d-block mx-auto" src="img/10itemsmodals/Berlin(1).png" alt="">
+                  <div style="text-align:left">
+					  <p>BLIBLILBI</p>
+                  </div>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fas fa-times"></i>
+                    Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
 
     <!-- Portfolio Modals -->
 
@@ -815,7 +849,7 @@
 					  			of an important historical event. This concept is foundamental because our aim is to present items related to Peter Fachter as a concrete
 					  			example/metaphor as "portatore" of a concept, in this case "Segregation". <br>
 					  			For this purpose we used LODE, used for the descrition of events.
-					  			ONTOLOGIA DELLA BBC BELLISSIMA: <a href="https://www.bbc.co.uk/ontologies/coreconcepts#terms_dateOfDeath">BCC STANDRD</a> (propriet�: Date of birth/death, place of date/birth, event palce/theme/person)
+					  			ONTOLOGIA DELLA BBC BELLISSIMA: <a href="https://www.bbc.co.uk/ontologies/coreconcepts#terms_dateOfDeath">BCC STANDRD</a> (proprietà: Date of birth/death, place of date/birth, event palce/theme/person)
 					  		</li>
 					  	</p>
 					  <h6>WHERE</h6>
@@ -823,7 +857,7 @@
 					  <h6>WHEN</h6>
 					  <p>LODE: <br>
 						  LIDO: Its strength lies in its ability to support the full range of descriptive information about museum
-						  objects. It can be used for all kinds of object, e.g. art, cultural, technology and natural science. It is made up of a nested set of �wrapper� and �set� elements which structure records in
+						  objects. It can be used for all kinds of object, e.g. art, cultural, technology and natural science. It is made up of a nested set of ‘wrapper’ and ‘set’ elements which structure records in
 culturally significant ways. An important part of its design is the concept of events taken from
 the CIDOC CRM.
 					  </p>
@@ -840,6 +874,47 @@ the CIDOC CRM.
         </div>
       </div>
     </div>
+    
+    <div class="portfolio-modal modal fade" id="ConceptualModal" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12 mx-auto">
+                <div class="modal-body" style="text-align:left">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">Our Conceptual Model</h2>
+                  <p class="item-intro text-muted">Create your own conceptual model by reusing existing models (RDF/RDFS/OWL/SKOS; DC, FRBR, EDM, RDA,OAD, EAC-CPF).</p>
+                  <p>Following our Theoretical Model, we developed this section. We chose follow the already mentioned for questions as a guideline.</p>
+                  <ul class="list-inline">
+                    <li>WHO: Which kind of information have to be considered in our model?</li>
+                    <li>WHERE: Which kind of information we have to represent about locations? How do we specifically consider this topic?</li>
+                    <li>WHEN? In which format I need to express the notion of time? How to specifically express the concept of "Hisorical Period of Time"</li>
+                    <li>WHAT? What is the main content of my object? </li>
+                  </ul>
+                  <h6>WHO</h6>
+                  	<p></p>
+                  <h6>WHERE</h6>
+                  	<img src="img/tabmodels/where-conceptual.png">
+                  <h6>WHEN</h6>
+                  	<p></p>
+                  <h6>WHAT</h6>
+                  	<p></p>
+                </div>
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>Close</button> 
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div
+    
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
