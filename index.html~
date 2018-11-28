@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Agency - Start Bootstrap Theme</title>
+    <title>ABitLOD</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -30,7 +30,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">ABitLOD</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i class="fas fa-bars"></i>
@@ -38,20 +38,20 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav text-uppercase ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#services">Services</a>
+              <a class="nav-link js-scroll-trigger" href="#services">Starting Point</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+              <a class="nav-link js-scroll-trigger" href="#portfolio">12 Items</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+              <a class="nav-link js-scroll-trigger" href="#about">Our Model</a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#team">Team</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-            </li>
+            </li> -->
           </ul>
         </div>
       </div>
@@ -63,7 +63,6 @@
         <div class="intro-text">
           <div class="intro-heading text-uppercase">Another Brick in the <i>LOD</i></div>
           <div class="intro-lead-in">Knowledge Organization and Digital Methods in the Cultural Heritage Domain</div>
-          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a>
         </div>
       </div>
     </header>
@@ -80,25 +79,27 @@
         <div class="row text-center">
           <div class="col-md-4">
             <span class="fa-stack fa-4x">
-              <i class="fas fa-circle fa-stack-2x text-primary"></i>
-              <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
+              <i class="fas fa-circle fa-stack-2x text-primary" style="z-index: -1 !important;"></i>
+              <i class="fa fa-lightbulb"></i>
             </span>
             <h4 class="service-heading">Our Idea</h4>
             <p class="text-muted">How we got our idea and how we managed it at the beginnig: why did we choose the case of the Berlin Wall, how we intend to focus on the LOD and how we want to apply it on our case study.</p>
           </div>
           <div class="col-md-4">
             <span class="fa-stack fa-4x">
-              <i class="fas fa-circle fa-stack-2x text-primary"></i>
-              <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
+              <i class="fas fa-circle fa-stack-2x text-primary" style="z-index: -1 !important;"></i>
+              <i class="fas fa-map-marked-alt"></i>
             </span>
             <h4 class="service-heading">More than the Berlin Wall</h4>
             <p class="text-muted">A broader view on the project: how our idea can be extended on landmarks. How we want to extend our idea in the Cultural Heritage starting from our case study.</p>
           </div>
           <div class="col-md-4">
-            <span class="fa-stack fa-4x">
-              <i class="fas fa-circle fa-stack-2x text-primary"></i>
-              <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
-            </span>
+          	<a class="portfolio-link" data-toggle="modal" href="#ERModelModal" style="color: #212529;">
+				<span class="fa-stack fa-4x">
+				  <i class="fas fa-circle fa-stack-2x text-primary" style="z-index: -1 !important;"></i>
+				  <i class="fas fa-project-diagram"></i>
+				</span>
+			</a>
             <h4 class="service-heading">E/R Model</h4>
             <p class="text-muted">Look at this section to see our E/R model: a simple model to explain our idea into an entity-relation diagram.</p>
           </div>
@@ -111,7 +112,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">10 ITEMS</h2>
+            <h2 class="section-heading text-uppercase">12 ITEMS</h2>
             <h3 class="section-subheading text-muted">Related with the Berlin Wall</h3>
           </div>
         </div>
@@ -210,7 +211,7 @@
         <!-- ITEM 7: Cold War --> 
         <div class="row">
           <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#itemoModal7">
+            <a class="portfolio-link" data-toggle="modal" href="#itemModal7">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
                   <i class="fas fa-plus fa-3x"></i>
@@ -220,12 +221,12 @@
             </a>
             <div class="portfolio-caption">
               <h4>Cold War</h4>
-              <p class="text-muted">Car</p>
+              <p class="text-muted">Car Model</p>
             </div>
           </div>
           <!-- ITEM 8: Cold War --> 
           <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#itemoModal8">
+            <a class="portfolio-link" data-toggle="modal" href="#itemModal8">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
                   <i class="fas fa-plus fa-3x"></i>
@@ -240,7 +241,7 @@
           </div>
           <!-- ITEM 9: Cold War --> 
           <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#itemoModal9">
+            <a class="portfolio-link" data-toggle="modal" href="#itemModal9">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
                   <i class="fas fa-plus fa-3x"></i>
@@ -255,7 +256,7 @@
           </div>
           <!-- ITEM 10: 9nov1989 --> 
           <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#itemoModal10">
+            <a class="portfolio-link" data-toggle="modal" href="#itemModal10">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
                   <i class="fas fa-plus fa-3x"></i>
@@ -270,7 +271,7 @@
           </div>
           <!-- ITEM 11: 9nov1989 --> 
           <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#itemoModal11">
+            <a class="portfolio-link" data-toggle="modal" href="#itemModal11">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
                   <i class="fas fa-plus fa-3x"></i>
@@ -285,7 +286,7 @@
           </div>
           <!-- ITEM 12: Reunification --> 
           <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#itemoModal12">
+            <a class="portfolio-link" data-toggle="modal" href="#itemModal12">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
                   <i class="fas fa-plus fa-3x"></i>
@@ -315,36 +316,45 @@
           <div class="col-lg-12">
             <ul class="timeline">
               <li>
+              	<!-- ALIGNMENT -->
                 <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="img/about/1.jpg" alt="">
+                	<a class="portfolio-link" data-toggle="modal" href="#itemModal1">
+                		<img class="rounded-circle img-fluid" src="img/about/1.jpg" alt="">
+                	</a>
                 </div>
                 <div class="timeline-panel">
                   <div class="timeline-heading">
-                    <h4>2009-2011</h4>
-                    <h4 class="subheading">Our Humble Beginnings</h4>
+                    <h4 style="color:white">2009-2011</h4> <!--trashata-->
+                    <h4 class="subheading">Alignment</h4>
                   </div>
                   <div class="timeline-body">
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                    <p class="text-muted">Already existing standards that can match with our idea and related concepts.</p>
                   </div>
                 </div>
               </li>
+              <!-- THEORETICAL MODEL -->
               <li class="timeline-inverted">
                 <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="img/about/2.jpg" alt="">
+                	<a class="portfolio-link" data-toggle="modal" href="#theoreticalModal">
+                		<img class="rounded-circle img-fluid" src="img/about/2.jpg" alt="">
+                	</a>
                 </div>
                 <div class="timeline-panel">
                   <div class="timeline-heading">
-                    <h4>March 2011</h4>
-                    <h4 class="subheading">An Agency is Born</h4>
+                    <h4 style="color:white">March 2011</h4>
+                    <h4 class="subheading">Theoretical Model</h4>
                   </div>
                   <div class="timeline-body">
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                    <p class="text-muted">Already existing standards that can match with our idea and related concepts.</p>
                   </div>
                 </div>
               </li>
+              <!-- CONCEPTUAL MODEL -->
               <li>
                 <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="img/about/3.jpg" alt="">
+                	<a class="portfolio-link" data-toggle="modal" href="#ConceptualModal">
+                		<img class="rounded-circle img-fluid" src="img/about/3.jpg" alt="">
+                	</a>	
                 </div>
                 <div class="timeline-panel">
                   <div class="timeline-heading">
@@ -474,78 +484,6 @@
       </div>
     </section>
 
-    <!-- Clients -->
-    <section class="py-5">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3 col-sm-6">
-            <a href="#">
-              <img class="img-fluid d-block mx-auto" src="img/logos/envato.jpg" alt="">
-            </a>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <a href="#">
-              <img class="img-fluid d-block mx-auto" src="img/logos/designmodo.jpg" alt="">
-            </a>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <a href="#">
-              <img class="img-fluid d-block mx-auto" src="img/logos/themeforest.jpg" alt="">
-            </a>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <a href="#">
-              <img class="img-fluid d-block mx-auto" src="img/logos/creative-market.jpg" alt="">
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Contact -->
-    <section id="contact">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Contact Us</h2>
-            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-12">
-            <form id="contactForm" name="sentMessage" novalidate="novalidate">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <input class="form-control" id="name" type="text" placeholder="Your Name *" required="required" data-validation-required-message="Please enter your name.">
-                    <p class="help-block text-danger"></p>
-                  </div>
-                  <div class="form-group">
-                    <input class="form-control" id="email" type="email" placeholder="Your Email *" required="required" data-validation-required-message="Please enter your email address.">
-                    <p class="help-block text-danger"></p>
-                  </div>
-                  <div class="form-group">
-                    <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" required="required" data-validation-required-message="Please enter your phone number.">
-                    <p class="help-block text-danger"></p>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <textarea class="form-control" id="message" placeholder="Your Message *" required="required" data-validation-required-message="Please enter a message."></textarea>
-                    <p class="help-block text-danger"></p>
-                  </div>
-                </div>
-                <div class="clearfix"></div>
-                <div class="col-lg-12 text-center">
-                  <div id="success"></div>
-                  <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">Send Message</button>
-                </div>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </section>
 
     <!-- Footer -->
     <footer>
@@ -553,25 +491,6 @@
         <div class="row">
           <div class="col-md-4">
             <span class="copyright">Copyright &copy; Your Website 2018</span>
-          </div>
-          <div class="col-md-4">
-            <ul class="list-inline social-buttons">
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-twitter"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-facebook-f"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-linkedin-in"></i>
-                </a>
-              </li>
-            </ul>
           </div>
           <div class="col-md-4">
             <ul class="list-inline quicklinks">
@@ -586,6 +505,38 @@
         </div>
       </div>
     </footer>
+    
+    <!-- E/R MODEL MODAL -->
+    
+    <div class="portfolio-modal modal fade" id="ERModelModal" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <h2 class="text-uppercase">E/R MODEL</h2>
+                  <p class="item-intro text-muted">A simple way to represent our Idea.</p>
+                  <img class="img-fluid d-block mx-auto" src="img/10itemsmodals/Berlin(1).png" alt="">
+                  <div style="text-align:left">
+					  <p>BLIBLILBI</p>
+                  </div>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fas fa-times"></i>
+                    Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
 
     <!-- Portfolio Modals -->
 
@@ -772,7 +723,6 @@
         </div>
       </div>
     </div>
-
     
     <!-- Modal 5 -->
     <div class="portfolio-modal modal fade" id="itemModal5" tabindex="-1" role="dialog" aria-hidden="true">
@@ -811,7 +761,7 @@
 						<li><i>subject</i> (Subject Keywords): Free text field for keywords representing topic of item. (Optional)</li>
 					  </ul>
 					  <h6>Issues</h6>
-					  <ul>
+					  <ul>	
 					  	<li>In the photograph there is a signal: What is written on the signal is strictly related to West and East Berlin split (main point of our project). 
 					  		Taking this case as an example (but we will find other similar aspects in the following items) and thinking about our Conceptual Model, 
 					  		we can imagine to develop a particultar metadata tag that contains everything is written in an image (specifying also some other characteristics).</li>
@@ -862,6 +812,245 @@
         </div>
       </div>
     </div>
+
+    <!-- ITEM 7 MODALE -->
+    <div class="portfolio-modal modal fade" id="itemModal7" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <h2 class="text-uppercase"><a href="https://nat.museum-digital.de/index.php?t=objekt&oges=373">PKW Trabant 601</a></h2>
+                  <p class="item-intro text-muted">A small model of the Car</p>
+                  <p class="item-intro text-muted">Taken From <i><b>Museum-Digital</b></i></p>
+                  <img class="img-fluid d-block mx-auto" src="img/10items/ColdWar(1).png" alt="">
+                  <div style="text-align:left">
+                    <h6>Why do we choose this item? </h6>
+                    <p>Motivi nostri.</p>
+                    <h6>What about Metadata and Standards?</h6>
+                    <p>We contacted i tedeschi e ci hanno dato tante info. ecco i links:
+                      <a href="#">"Link titolo1"</a> and
+                      <a href="#">"Linktitolo2"</a>
+                      .</p>
+                    <ul> <b>Lido Standard (General CSV)</b>
+                      <li><i>proprieta lido:</i> Descrizione (required se richiesta)</li>
+                      <li><i>proprieta lido:</i> Altra descrizione (Recommended se raccomandata)</li>
+                    </ul>
+                    <h6>Issues</h6>
+                    <ul>
+                      <li>Come fare i metadati del modello del modello di auto? Frbr e quant'altro.</li>
+                      <li>un altro problema nel caso.</li>
+                    </ul>
+                  </div>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fas fa-times"></i>
+                    Close Project</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ITEM 10 MODALE -->
+    <div class="portfolio-modal modal fade" id="itemModal10" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <h2 class="text-uppercase"><a href="https://opac.sbn.it/opacsbn/opaclib?saveparams=false&resultForward=opac%2Ficcu%2Ffull.jsp&x=0&select_db=solr_iccu&y=0&do_cmd=search_show_cmd&searchForm=opac%2Ficcu%2Ffree.jsp&db=solr_iccu&nentries=1&rpnlabel=+Tutti+i+campi+%3D+wind+of+change+%28parole+in+AND%29+&rpnquery=%2540attrset%2Bbib-1%2B%2B%2540attr%2B1%253D1016%2B%2540attr%2B4%253D6%2B%2522wind%2Bchange%2522&&fname=none&from=1">Wind of Change</a></h2>
+                  <p class="item-intro text-muted">A Song by Scorpions (1990)</p>
+                  <p class="item-intro text-muted">Taken From <i><b>Opac SBN</b></i></p>
+                  <img class="img-fluid d-block mx-auto" src="img/10items/9nov1989(1).png" alt="">
+                  <div style="text-align:left">
+                    <h6>Why do we choose this item? </h6>
+                    <p>Motivi nostri.</p>
+                    <h6>What about Metadata and Standards?</h6>
+                    <p>We contacted i tedeschi e ci hanno dato tante info. ecco i links:
+                      <a href="#">"Link titolo1"</a> and
+                      <a href="#">"Linktitolo2"</a>
+                      .</p>
+                    <ul> <b>Opac Standard</b>
+                      <li><i>proprieta opac:</i> Descrizione (required se richiesta)</li>
+                      <li><i>proprieta opac:</i> Altra descrizione (Recommended se raccomandata)</li>
+                    </ul>
+                    <h6>Issues</h6>
+                    <ul>
+                      <li>Bò etcetera e quantaltro.</li>
+                      <li>un altro problema nel caso.</li>
+                    </ul>
+                  </div>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fas fa-times"></i>
+                    Close Project</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ITEM 12 MODALE -->
+    <div class="portfolio-modal modal fade" id="itemModal12" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <h2 class="text-uppercase"><a href="https://nat.museum-digital.de/index.php?t=objekt&oges=220322&cachesLoaded=true">US-Präsident Ronald Reagan in West-Berlin</a></h2>
+                  <p class="item-intro text-muted">A photograph of the Reunification</p>
+                  <p class="item-intro text-muted">Taken From <i><b>Museum-Digital</b></i></p>
+                  <img class="img-fluid d-block mx-auto" src="img/10items/Reunification(1).png" alt="">
+                  <div style="text-align:left">
+                    <h6>Why do we choose this item? </h6>
+                    <p>Motivi nostri.</p>
+                    <h6>What about Metadata and Standards?</h6>
+                    <p>We contacted i tedeschi e ci hanno dato tante info. ecco i links:
+                      <a href="#">"Link titolo1"</a> and
+                      <a href="#">"Linktitolo2"</a>
+                      .</p>
+                    <ul> <b>Lido Standard (General CSV)</b>
+                      <li><i>proprieta lido:</i> Descrizione (required se richiesta)</li>
+                      <li><i>proprieta lido:</i> Altra descrizione (Recommended se raccomandata)</li>
+                    </ul>
+                    <h6>Issues</h6>
+                    <ul>
+                      <li>Questa è una semplice foto fondamentalmente.</li>
+                      <li>un altro problema nel caso.</li>
+                    </ul>
+                  </div>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fas fa-times"></i>
+                    Close Project</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- MODALE THEORETICAL MODEL -->
+    <div class="portfolio-modal modal fade" id="theoreticalModal" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+          
+					<h2 class="text-uppercase">Our Theoretical Model</h2>
+                  <!-- <p class="item-intro text-muted">An Illustration by Siegfried Rutschmann</p>
+                  <p class="item-intro text-muted">Taken From <i><b>Deutsche Digitale Bibliothek</b></i></p> 
+                  <img class="img-fluid d-block mx-auto" src="img/10itemsmodals/PeterFechter(1).png" alt="" style="width:60%"> -->
+                  <div style="text-align:left">
+					  <h6>This model is able to describe the chosen items replying to the questions:</h6>
+					  <ul>
+					  <li>WHO &#8211; people. How to describe people? Which kind of information?</li>
+					  <li>WHERE &#8211; places. Which kind of information I have to represent about locations?</li>
+					  <li>WHEN &#8211; dates. In which format I need to express the notion of time?</li>
+					  <li>WHAT &#8211; subjects/concepts. What is the main content of my object?</li>
+					  </ul>
+					  <h6>WHO</h6>
+					  <p>At this point we noticed that we need to treat people in double aspect: 
+					  	<ul>
+					  		<li>First we need to provide some anagrafical information about the acting character; We decided to use FOAF oppure <a href="http://dublincore.org/groups/libraries/dc2010/04_LinkedLibraryDataatDNB.pdf">RDAGR2</a> (DublinCore ti amo) </li>
+					  		<li>then how this person is involved with the Berlin Wall history in this specific case.  <br> 
+					  			So, we thought that the realtion between The Berlin Wall as monument and Peter Fechter as a person is that Fechter was a sort of living example/exponent 
+					  			of an important historical event. This concept is foundamental because our aim is to present items related to Peter Fachter as a concrete
+					  			example/metaphor as "portatore" of a concept, in this case "Segregation". <br>
+					  			For this purpose we used LODE, used for the descrition of events.
+					  			ONTOLOGIA DELLA BBC BELLISSIMA: <a href="https://www.bbc.co.uk/ontologies/coreconcepts#terms_dateOfDeath">BCC STANDRD</a> (proprietà: Date of birth/death, place of date/birth, event palce/theme/person)
+					  		</li>
+                        </ul>
+                      </p>
+					  <h6>WHERE</h6>
+					  <p>...</p>
+					  <h6>WHEN</h6>
+					  <p>LODE: <br>
+						  LIDO: Its strength lies in its ability to support the full range of descriptive information about museum
+						  objects. It can be used for all kinds of object, e.g. art, cultural, technology and natural science. It is made up of a nested set of ‘wrapper’ and ‘set’ elements which structure records in
+culturally significant ways. An important part of its design is the concept of events taken from
+the CIDOC CRM.
+					  </p>
+					  <h6>WHAT</h6>
+					  <p>...</p>  
+                  </div>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fas fa-times"></i>
+                    Close Project</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="portfolio-modal modal fade" id="ConceptualModal" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12 mx-auto">
+                <div class="modal-body" style="text-align:left">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">Our Conceptual Model</h2>
+                  <p class="item-intro text-muted">Create your own conceptual model by reusing existing models (RDF/RDFS/OWL/SKOS; DC, FRBR, EDM, RDA,OAD, EAC-CPF).</p>
+                  <p>Following our Theoretical Model, we developed this section. We chose follow the already mentioned for questions as a guideline.</p>
+                  <ul class="list-inline">
+                    <li>WHO: Which kind of information have to be considered in our model?</li>
+                    <li>WHERE: Which kind of information we have to represent about locations? How do we specifically consider this topic?</li>
+                    <li>WHEN? In which format I need to express the notion of time? How to specifically express the concept of "Hisorical Period of Time"</li>
+                    <li>WHAT? What is the main content of my object? </li>
+                  </ul>
+                  <h6>WHO</h6>
+                  	<p></p>
+                  <h6>WHERE</h6>
+                  	<img src="img/tabmodels/where-conceptual.png">
+                  <h6>WHEN</h6>
+                  	<p></p>
+                  <h6>WHAT</h6>
+                  	<p></p>
+                </div>
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>Close</button> 
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
