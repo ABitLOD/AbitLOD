@@ -11,7 +11,6 @@
     <title>ABitLOD</title>
 
     <!-- Bootstrap core CSS -->
-    <!-- CIAO AMIKI VVB -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
@@ -990,13 +989,30 @@
                         </ul>
                       </p>
 					  <h6>WHERE</h6>
-					  <p>...</p>
+					  <p>At this point we noticed that we need to treat places under many aspects in order to have a broad vision in our model:
+					  	<ul>
+							<li><b>GEOLOCALIZATION:</b> Places can be seen as points in space. For this reason we want to convey to the user the coordinates of the place of interest. 
+								In order to do so we will use <a href="http://www.w3.org/2003/01/geo/wgs84_pos#">wgs84_pos</a>. This standard has an additional useful feature in our model: we can provide a CSV file to indicate a set of points in the space, so to present lines and shapes. This is the specific case of the Berlin Wall building (a set of lines).
+							</li>
+							<li><b> PLACE AS A CULTURAL SPOT:</b> Our concept model is also based on the idea that the places we present are also places of cultural interest. 
+								For this reason we want to provide some useful information about it. 
+								In order to do this we will use <a href="https://schema.org/Place">schema</a> and <a href="http://dbpedia.org/ontology/">dbo</a>. 
+							</li>
+							<li><b> POLITICAL LOCALIZATION:</b> To connect this specific place to the city which it belongs we will add some information about the actual city. 
+								In order to do this we will use <a href="https://schema.org/Place">schema</a> providing the specificity of the specification with <a href="http://dbpedia.org/ontology/">dbo</a>. 
+							</li>
+							<li><b> HISTORICAL REGION:</b> Considering the fact that we are working on a model which has a strong historical connotation, 
+								and considering that we are talking about Berlin in our case-study, we want to add some additional information about the "historical" region, 
+								where this place was contained (East Berlin). In order to do so we will use <a href="https://schema.org/Place">schema</a> joined with <a href="https://www.w3.org/TR/owl-time/">owl-time</a>. 
+							</li>
+						</ul>
+						</p>
 					  <h6>WHEN</h6>
 					  <p>LODE: <br>
 						  LIDO: Its strength lies in its ability to support the full range of descriptive information about museum
 						  objects. It can be used for all kinds of object, e.g. art, cultural, technology and natural science. It is made up of a nested set of ‘wrapper’ and ‘set’ elements which structure records in
-culturally significant ways. An important part of its design is the concept of events taken from
-the CIDOC CRM.
+						  culturally significant ways. An important part of its design is the concept of events taken from
+						  the CIDOC CRM.
 					  </p>
 					  <h6>WHAT</h6>
 					  <p>...</p>  
