@@ -11,7 +11,16 @@
     frbr:creator "VEB Sachsenring Automobilwerke Zwickau".
 
 <https://abitlod.github.io/AbitLOD/Trabant601Blue> a frbr:Expression ;
-    frbr:realizationOf <https://abitlod.github.io/AbitLOD/TheTrabantCar> .
+    frbr:realizationOf <https://abitlod.github.io/AbitLOD/TheTrabantCar> ;
+    lido:descriptiveMetadata [
+            lido:objectIdentificationWrap [
+                lido:objectMeasurementsWrap [
+                    lido:objectMeasurementsSet [
+                        lido:displayObjectMeasurements "3555 mm x 1504 mm x 1437 mm";
+                        ]
+                    ]
+                ]
+            ] .
 
 <https://abitlod.github.io/AbitLOD/TrabantReplica> a frbr:Manifestation ;
     frbr:imitationOf <https://abitlod.github.io/AbitLOD/Trabant601Blue> ;
