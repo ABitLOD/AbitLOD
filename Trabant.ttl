@@ -5,18 +5,39 @@
 @prefix lido: <http://www.lido-schema.org/schema/v1.0/lido-v1.0.xsd/> .
 @prefix frbr: <http://purl.org/vocab/frbr/core#/> .
 
-<https://abitlod.github.io/AbitLOD/Trabant.ttl> a frbr:Concept ;
 
+<https://abitlod.github.io/AbitLOD/TheTrabantCar> a frbr:Work ;
+    frbr:subject <https://abitlod.github.io/AbitLOD/freiheit> ;
+    frbr:creator "VEB Sachsenring Automobilwerke Zwickau".
 
-<https://abitlod.github.io/AbitLOD/Trabant.ttl> a frbr:Work ;
-    frbr:subject "Il rispetto";
+<https://abitlod.github.io/AbitLOD/Trabant601Blue> a frbr:Expression ;
+    frbr:realizationOf <https://abitlod.github.io/AbitLOD/TheTrabantCar> .
 
+<https://abitlod.github.io/AbitLOD/TrabantReplica> a frbr:Manifestation ;
+    frbr:imitationOf <https://abitlod.github.io/AbitLOD/Trabant601Blue> ;
+    frbr:owner "Fahrzeugmuseum Staßfurt" ;
+    lido:descriptiveMetadata [
+        lido:objectIdentificationWrap [
+            lido:objectMeasurementsWrap [
+                lido:objectMeasurementsSet [
+                    lido:displayObjectMeasurements "Länge 140 mm - Breite 50 mm - Höhe 30 mm";
+                    ]
+                ]
+            ] ;
+        lido:eventWrap [
+            lido:eventSet [
+                lido:event [
+                    lido:eventMaterialsTech [
+                        lido:materialsTech [
+                            lido:termMaterialsTech [
+                                lido:term "Plastic"
+                            ]
+                        ]
+                    ]
+                ]
+            ]
+        ]
+        ] .
 
-
-
-#<http://books.example.com/works/45U8QJGZSQKDH8N> a frbr:Work ;
-#     dc:creator "Wil Wheaton"@en ;
-#     dc:title "Just a Geek"@en ;
-#     frbr:realization <http://books.example.com/products/9780596007683.BOOK>,
-#         <http://books.example.com/products/9780596802189.EBOOK> .
-
+<https://abitlod.github.io/AbitLOD/freiheit> a frbr:Subject ;
+    rdfs:label "Freiheit" .
