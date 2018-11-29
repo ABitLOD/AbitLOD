@@ -619,23 +619,42 @@
               <div class="rl"></div>
             </div>
           </div>
-          <div class="container" style="text-align:left">
+          <div class="container">
             <div class="row">
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/02-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                  <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Explore</li>
-                    <li>Category: Graphic Design</li>
-                  </ul>
+                  <h2 class="text-uppercase"><a href="https://www.cinematografo.it/cinedatabase/film/le-vite-degli-altri/47513/">Le vite degli altri</a></h2>
+                  <p class="item-intro text-muted">A movie review by Cinematografo.it</p>
+                  <p class="item-intro text-muted">Taken From <i><b>Cinematrografo - Il portale italiano del cinema</b></i></p>
+                  <img class="img-fluid d-block mx-auto" src="img/10items/TheBerlinWall(1).png" alt="">
+                  <div style="text-align:left">
+                    <h6>Why do we choose this item? </h6>
+                    <p>This item is part of the Berlin Wall section. It was chosen as the story portrayed in the movie rotates around the existence of the wall and it can exemplify the influence that the wall had on the movement through the city.</p>
+                    <h6>Issues</h6>
+                    <p>The item is rich with metadata, though the content provider did not specify the employed standard. To bridge this gap, we described the metadata using a standard of our choice.</p>
+                    <h6>What about Metadata and Standards?</h6>
+                    <p>The page's source code has metadata following <a href="http://ogp.me/">OG standard</a>. A meaningful one is 'type', as it allows to highlight that the information about the movie is intended, as a whole, as an 'article' talking about it. To fill in the requirement of a standard definition of the set of elements used in the article, we employed <a href="https://tech.ebu.ch/MetadataEbuCore">Ebucore</a>, an ontology for the description of audiovisual resources. It is modelled reusing existing standards <a href="https://schema.org/docs/datamodel.html">Schema.org</a>, <a href="http://dublincore.org/2012/06/14/dcelements">Dublin Core</a> and <a href="http://xmlns.com/foaf/spec/">FOAF</a> . This allowed us to indicate a standard also for the media resource specific metadata, as follows:
+                    <ul> <b>Ebucore Standard Metadata</b>
+                      <li><i>Original title:</i> To provide the original title attributed to the media resource e.g. in its original language.</li>
+                      <li><i>alternativeTitle</i> To provide an alternative title.</li>
+                      <li><i>hasMedium:</i> To provide information on the medium formats in which the resource is available. </li>
+                      <li><i>hasColourSpace:</i> To describe the colour space.</li>
+                      <li><i>duration:</i> To provide information on the duration of a MediaResource. </li>
+                      <li><i>dc: creator:</i> A creator of content such as a director or a producer.</li>
+                      <li><i>hasCastMember:</i> A member of the cast. </li>
+                      <li><i>dc:contributor:</i> An Agent who has participated in any phase of management of a BusinessObject or Resource.</li>
+                      <li><i>creationDate:</i> The date of creation of the Resource or BusinessObject. </li>
+                      <li><i>hasLanguage:</i> To associate a Language to a Resource or BusinessObject.</li>
+                      <li><i>hasGenre: </i> To define a Genre/category associated to the BusinesssObject. </li>
+                      <li><i>Country:</i> To provide the country name and or country code. </li>
+                      <li><i>dc:publisher:</i> An Agent involved in the distribution of content.  </li>
+                      <li><i>summary:</i> To provide a summary.  </li>
+                    </ul>
+                  </div>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fas fa-times"></i>
-                    Close Project</button>
+                    close item</button>
                 </div>
               </div>
             </div>
@@ -807,19 +826,31 @@
             <div class="row">
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
-                  <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/06-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                  <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Window</li>
-                    <li>Category: Photography</li>
+                  <!-- Details item6 -->
+                  <h2 class="text-uppercase"><a href="https://www.the-berlin-wall.com/videos/peter-fechter-dies-trying-to-escape-542/">Peter Fechter dies trying to escape</a></h2>
+                  <p class="item-intro text-muted">A video by Rbb</p>
+                  <p class="item-intro text-muted">Taken From <i><b>Rbb's 'The Berlin Wall – A multimedia history'</b></i></p>
+                  <img class="img-fluid d-block mx-auto" src="img/10itemsmodals/PeterFechter(2).png" alt="">
+                  <h6>Why do we choose this item? </h6>
+                  <p>This item is in the Peter Fechter section. We chose it because Fechter was shot trying to cross the wall: the tragic ending of his life, makes him a symbol of the segregation caused by the division of the city.</p>
+                  <h6>Issues</h6>
+                  <p>The item is rich with metadata, though the content provider did not specify the employed standard. To bridge this gap, we described the metadata using a standard of our choice.</p>
+                  <h6>What about Metadata and Standards?</h6>
+                  <p>In the page's source code the source is classified 'type' as a 'website'; this was functional for us to distinguish the metadata strictly refererring to the video, described using <a href="https://tech.ebu.ch/MetadataEbuCore">Ebucore</a>  standard (cf. 'Le vite degli altri'), from those referring to the content of the video (see below).</p>
+                  <ul> <b>Ebucore standard:</b>
+                    <li><i>durationTimecode:</i> The duration expressed as a timecode.</li>
+                  </ul>
+                  <p>Given that ABitLOD has a focus on the events associated with the Berlin Wall, we decided to assign <a href="http://linkedevents.org/ontology/">LODE</a> standard to this item metadata, in order to describe the historical event depicted in the video. </p>
+                  <ul> <b>Ebucore standard:</b>
+                    <li><i>Event:</i> "Something that happened," as might be reported in a news article or explained by a historian.</li>
+                    <li><i>atTime:</i> [The value of this property is] an abstract instant or interval of time that is when an event happened.</li>
+                    <li><i>involved:</i> [The value of this property is] a (physical, social, or mental) object involved in an event.</li>
+                    <li><i>inSpace:</i> The value of this property is] an abstract region of space (e.g. a geospatial point or region) that is where an event happened.</li>
+                    <li><i>illustrate:</i> [The value of this property is] an event illustrated by some thing (typically a media object).</li>
                   </ul>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fas fa-times"></i>
-                    Close Project</button>
+                    close item</button>
                 </div>
               </div>
             </div>
