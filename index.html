@@ -1149,16 +1149,12 @@
 					  <li>WHAT &#8211; subjects/concepts. What is the main content of my object?</li>
 					  </ul>
 					  <h6>WHO</h6>
-					  <p>At this point we noticed that we need to treat people in double aspect: 
 					  	<ul>
-					  		<li>First we need to provide some anagrafical information about the acting character; We decided to use FOAF oppure <a href="http://dublincore.org/groups/libraries/dc2010/04_LinkedLibraryDataatDNB.pdf">RDAGR2</a> (DublinCore ti amo) </li>
-					  		<li>then how this person is involved with the Berlin Wall history in this specific case.  <br> 
-					  			So, we thought that the realtion between The Berlin Wall as monument and Peter Fechter as a person is that Fechter was a sort of living example/exponent 
-					  			of an important historical event. This concept is foundamental because our aim is to present items related to Peter Fachter as a concrete
-					  			example/metaphor as "portatore" of a concept, in this case "Segregation". <br>
-					  			For this purpose we used LODE, used for the descrition of events.
-					  			ONTOLOGIA DELLA BBC BELLISSIMA: <a href="https://www.bbc.co.uk/ontologies/coreconcepts#terms_dateOfDeath">BCC STANDRD</a> (proprietà: Date of birth/death, place of date/birth, event palce/theme/person)
-					  		</li>
+					  		<li>
+                              The perspective embraced to describe people in our model is based on thinking that a person is an agent involved in events (birth, professional life, notable involvement, death). Starting from this premise, we chose to use the BBC’s Core Concepts Ontology. On the one hand, we employed properties to describe anybody’s major life events (dateOfBirth, occupation, dateOfDeath). On the other end, we described the implication of the Person in the context of our E/R model (using the property knownFor).
+                              </li>
+                    <li>Furthermore, we considered to use FOAF in order to link the person to other people and more information and LODE to give more space to the role of a person in an event in order to relate this event to other events, in causal terms. This approach was then abandoned in that choices as such would have provoked an excessively significant intersection with other Ws descriptive categories.
+                            </li>
                         </ul>
                       </p>
 					  <h6>WHERE</h6>
@@ -1188,7 +1184,7 @@
 						  the CIDOC CRM.
 					  </p>
 					  <h6>WHAT</h6>
-					  <p>...</p>  
+					  <p>La trabant.</p>
                   </div>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fas fa-times"></i>
