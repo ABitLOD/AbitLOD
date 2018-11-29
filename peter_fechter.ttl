@@ -1,0 +1,16 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix core: <http://www.bbc.co.uk/things/1efbf3e5-b330-49a1-b531-b507ab027c96#id> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <https://www.w3.org/TR/owl-ref/> . 
+@prefix wn: <https://www.w3.org/2006/03/wn/wn20/> .
+
+<https://abitlod.github.io/AbitLOD/PeterFechter.ttl>
+	a core:Person ;
+	core:dateOfBirth '1944-01-14'^^xsd:date ;
+	core:occupation 'bricklayer' ;
+            core:knownFor 'He was shot dead trying to escape from DDR' ;
+            core:placeOfDeath 'Checkpoint Charlie, 10117 Berlin, Germany' ;
+            core:dateOfDeath '1962-08-17'^^xsd:date ;
+            owl:SameAs <https://www.wikidata.org/wiki/Q76741> ;
+            wn:hyponymOf <http://dbpedia.org/ontology/Bricklayer> .
