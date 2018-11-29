@@ -5,13 +5,18 @@
 @prefix lido: <http://www.lido-schema.org/schema/v1.0/lido-v1.0.xsd/> .
 @prefix frbr: <http://purl.org/vocab/frbr/core#/> .
 
+<https://abitlod.github.io/AbitLOD/Trabant.ttl> a frbr:Concept ;
 
-<https://abitlod.github.io/AbitLOD/Trabant.ttl>
+
+<https://abitlod.github.io/AbitLOD/Trabant.ttl> a frbr:Work ;
+    frbr:subject "Il rispetto";
 
 
-<http://books.example.com/works/45U8QJGZSQKDH8N> a frbr:Work ;
-     dc:creator "Wil Wheaton"@en ;
-     dc:title "Just a Geek"@en ;
-     frbr:realization <http://books.example.com/products/9780596007683.BOOK>,
-         <http://books.example.com/products/9780596802189.EBOOK> .
+
+
+#<http://books.example.com/works/45U8QJGZSQKDH8N> a frbr:Work ;
+#     dc:creator "Wil Wheaton"@en ;
+#     dc:title "Just a Geek"@en ;
+#     frbr:realization <http://books.example.com/products/9780596007683.BOOK>,
+#         <http://books.example.com/products/9780596802189.EBOOK> .
 
