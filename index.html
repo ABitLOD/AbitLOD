@@ -769,13 +769,34 @@
 					  <p>The item represents the spot where Peter Fechter died</p>
 					  <h6>What about Metadata and Standards?</h6>
 					  <p></p>
-					  <ul> <b>Properties in the Item</b>
-						<li><i>title:</i> A short title for the item. (Required)</li>
-						<li><i>creator:</i> Creator of item such as the author, painter, or photographer (Recommended)</li>
-						<li><i>dateCreated:</i> Date an item was created, such as when a painting was painted. (Recommended)</li>
-						<li><i>provenance:</i> Description of provenance of object. (Optional)</li>
-						<li><i>subject</i> (Subject Keywords): Free text field for keywords representing topic of item. (Optional)</li>
-					  </ul>
+					  <ul> 
+					  	<li><b>EDM properties in the Item</b>
+					  		<ul> 
+								<li> edm:ProvidedCHO
+								<ul>
+									<li><i>dc:type</i> Foto</li>
+									<li><i>edm:medium</i> Photo Paper </li>
+									<li><i>edm:Event</i> Creation 
+										<ul>
+											<li>edm:Agent (edm:wasPresentAt)</li>
+											<li>edm:Place (edm:happenedAt)</li>
+											<li>edm:TimeSpan (edm:OccurredAt)</li>
+										</ul>
+									</li>
+								</ul>	
+									<li><i>dc:subject</i> keywords </li>
+									<li><i>edm:currentLocation</i></li>
+								</li>
+								<li> edm:WebResource
+									<ul>
+										<li>dc:identifier</li>
+										<li>cc:license</li>
+										<li>dc:rights</li>
+									</ul>
+								</li>
+							</ul>
+							</li>		
+						</ul>
                   </div>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fas fa-times"></i>
