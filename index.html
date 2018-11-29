@@ -308,8 +308,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">About</h2>
-            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+            <h2 class="section-heading text-uppercase">OUR MODEL</h2>
           </div>
         </div>
         <div class="row">
@@ -1167,16 +1166,28 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Data Model</h2>
-                  <p class="item-intro text-muted">Describe your data (remember to separate description of record from description of people) in natural
-                  		language (e.g a table) on the base of the realized conceptual model.</p>
+                  <h2 class="text-uppercase">ALIGNMENT</h2>
+                  <p class="item-intro text-muted">Define the alignment between the different used standard for the metadata related to people, place, date,
+                  	concepts (mapping).</p>
                   <h6>WHO</H6>		
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/02-full.jpg" alt="">
+ 					<p>unimarc:Title and Statement of resposability = ISBD:Statement of resposibility = dc:creator = vra:name = google:creator = frbr:creator = lido:actorInRoleComplexType <br> 
+ 					ISBD:Name of Publisher = unimarc:Publication, Distribution = dc:publisher = frbr:resposibleEntity = lido:actorInRoleComplexType 
+ 					</p>                 
                   <h6>WHERE</H6>
-                  <img class="img-fluid d-block mx-auto" src="img/tabmodels/where-data.png" alt="">
-                  <h6>WHEN</H6>	
-                  <h6>WHERE</H6>	
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <p>ISBD:Place of Publication = google:provenance = ebucore:Coverage,Country <br>
+                  		lode:inSpace = lido:eventPlace
+                  </p>
+                  <h6>WHEN</h6>
+                  <p>ISBD:Date of Publication = unimarc:Publication, Distribution = dc:Date = vra:earliestDate,latestDate = google:dateCreated = ebucore:dateCreated<br>
+                  	lode:atTime = lido:datesComplexType
+                  </p>
+                  <h6>WHAT</h6>	
+                  <p>ISBD:Proper Tile = unimarc:Title and Statement of Responsibilty = dc:title = vra:title = google:title = ebucore:originalTitle = og:title = ebucore:alternativeTitle </br>
+                  lido:classificationWrapper = ISBD:Qualification to Identifier = unimarc:International Standard book numeber (ISBN) = dc:identifier = vra:collectionId </br>
+                  dc:originalLanguage = ebucore:dubbedLanguage = og:locale </br>
+                  
+                  </p> 
+                  <button class="btn btn-primary" data-dismiss="modal" type="button"> 	
                     <i class="fas fa-times"></i>
                     Close</button>
                 </div>
