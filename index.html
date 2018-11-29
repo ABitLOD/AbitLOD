@@ -858,15 +858,73 @@
                       seriously - unlinke dublin core or edm. Taking "events" seriously has the consequence that objects no longer
                       have only one "time" but many. Traditionally (at least in Germany)
                       museum-object-databases have only one field for time. </p>
-                    <ul> <b>Lido Standard (General CSV)</b>
-                      <li><i>proprieta lido:</i> Descrizione (required se richiesta)</li>
-                      <li><i>proprieta lido:</i> Altra descrizione (Recommended se raccomandata)</li>
-                    </ul>
+                    <div>
+                      <h6>Relevant LIDO properties</h6>
+                      <div>
+                        <b>Materials and Technology using during creation:</b>
+                        <div>
+                          <i>termMaterialsTech (0-unbounded)</i>
+                          <div>Definition: A concept to index materials and/or technique.</div>
+                          <div>How to record: Preferably taken from a published controlled vocabulary.</div>
+                          <div>
+                            <i>Extension (base
+                              lido:conceptComplexType)</i>
+                            <div>
+                              <i>Attribute
+                                lido:type
+                              </i>
+                              <div>How to record: Example values: technique, material, implement, mark (e.g., watermark or other mark inherent in the material)</div>
+                            </div>
+                            <div>
+                              <i>Attribute
+                                lido:sortorder
+                              </i>
+                            </div>
+                          </div>
+                        </div>
+                        <div>
+                          <i>extentMaterialsTech (
+                            lido:textComplexType 0-unbounded)</i>
+                          <div>Definition: An explanation of the part of the object / work to which the corresponding materials or technique are applicable; included when necessary for clarity.</div>
+                        </div>
+                        <div>
+                          <i>sourceMaterialsTech (
+                            lido:textComplexType 0-unbounded)</i>
+                          <div>Definition: The source of the information about materials and technique, often used when citing a published source of watermarks.</div>
+                        </div>
+                      </div>
+                      <div>
+                        <b>Wrapper for Measurements (Dimensions, Weight)</b>
+                        <a name="objectMeasurementsWrap">
+                          <i>objectMeasurementsWrap (element)</i>
+                        </a>
+                        <div>Definition: A wrapper for the Measurements.</div>
+                        <div>
+                          <i>Sequence:</i>
+                          <div>
+                            <i>objectMeasurementsSet (0-unbounded)</i>
+                            <div>Definition: Wrapper for display and index elements for object / work measurements.</div>
+                            <div>How to record: If multiple parts of the object / work are measured repeat this element. </div>
+                            <div>
+                              <i>Extension (base
+                                <a>lido:objectMeasurementsSetComplexType</a>)</i>
+                              <div>
+                                <i>Attribute
+                                  <a>lido:sortorder</a>
+                                </i>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div style="margin-top: 20px;">
                     <h6>Issues</h6>
                     <ul>
                       <li>Come fare i metadati del modello del modello di auto? Frbr e quant'altro.</li>
                       <li>un altro problema nel caso.</li>
                     </ul>
+                    </div>
                   </div>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fas fa-times"></i>
@@ -944,10 +1002,66 @@
                       seriously - unlinke dublin core or edm. Taking "events" seriously has the consequence that objects no longer
                       have only one "time" but many. Traditionally (at least in Germany)
                       museum-object-databases have only one field for time. </p>
-                    <ul> <b>Lido Standard (General CSV)</b>
-                      <li><i>proprieta lido:</i> Descrizione (required se richiesta)</li>
-                      <li><i>proprieta lido:</i> Altra descrizione (Recommended se raccomandata)</li>
-                    </ul>
+                    <div>
+                      <h6>Relevant LIDO properties</h6>
+                      <div>
+                        <b>Materials and Technology using during creation:</b>
+                        <div>
+                          <i>termMaterialsTech (0-unbounded)</i>
+                          <div>Definition: A concept to index materials and/or technique.</div>
+                          <div>How to record: Preferably taken from a published controlled vocabulary.</div>
+                          <div>
+                            <i>Extension (base
+                              lido:conceptComplexType)</i>
+                            <div>
+                              <i>Attribute
+                                lido:type
+                              </i>
+                              <div>How to record: Example values: technique, material, implement, mark (e.g., watermark or other mark inherent in the material)</div>
+                            </div>
+                            <div>
+                              <i>Attribute
+                                lido:sortorder
+                              </i>
+                            </div>
+                          </div>
+                        </div>
+                        <div>
+                          <i>extentMaterialsTech (
+                            lido:textComplexType 0-unbounded)</i>
+                          <div>Definition: An explanation of the part of the object / work to which the corresponding materials or technique are applicable; included when necessary for clarity.</div>
+                        </div>
+                        <div>
+                          <i>sourceMaterialsTech (
+                            lido:textComplexType 0-unbounded)</i>
+                          <div>Definition: The source of the information about materials and technique, often used when citing a published source of watermarks.</div>
+                        </div>
+                      </div>
+                      <div>
+                        <b>Wrapper for Measurements (Dimensions, Weight)</b>
+                        <a name="objectMeasurementsWrap">
+                          <i>objectMeasurementsWrap (element)</i>
+                        </a>
+                        <div>Definition: A wrapper for the Measurements.</div>
+                        <div>
+                          <i>Sequence:</i>
+                          <div>
+                            <i>objectMeasurementsSet (0-unbounded)</i>
+                            <div>Definition: Wrapper for display and index elements for object / work measurements.</div>
+                            <div>How to record: If multiple parts of the object / work are measured repeat this element. </div>
+                            <div>
+                              <i>Extension (base
+                                <a>lido:objectMeasurementsSetComplexType</a>)</i>
+                              <div>
+                                <i>Attribute
+                                  <a>lido:sortorder</a>
+                                </i>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fas fa-times"></i>
