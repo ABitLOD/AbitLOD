@@ -571,20 +571,18 @@
 					  Then, Google Cultural Institute uses its own "Standard"(in Google Cultural Platform Help page you can find the 
 						<a href="https://support.google.com/culturalinstitute/partners/answer/7574684?hl=en">"Metadata Fields"</a> and 
 						<a href="https://support.google.com/culturalinstitute/partners/answer/7572720?hl=en&ref_topic=4618070">"Prepare a metadata file (Google Sheets)"</a>).
-					  It seems to be similar (or at least modelled on) <a href="http://dublincore.org/documents/">Dublin Core</a>.</p>
+					  It seems to be similar (or at least modelled on) <a href="http://dublincore.org/documents/dcmi-terms/">Dublin Core</a>.</p>
 					  <ul> <b>Google Metadata Standard (General CSV)</b>
-						<li><i>title:</i> A short title for the item. (Required)</li>
-						<li><i>creator:</i> Creator of item such as the author, painter, or photographer (Recommended)</li>
-						<li><i>dateCreated:</i> Date an item was created, such as when a painting was painted. (Recommended)</li>
-						<li><i>provenance:</i> Description of provenance of object. (Optional)</li>
-						<li><i>subject</i> (Subject Keywords): Free text field for keywords representing topic of item. (Optional)</li>
+						<li> title: (dc:title)</li>
+						<li> creator: (dc:creator)</li>
+						<li> dateCreated: (dc:created)</li>
+						<li> provenance: (dc:provenance)</li>
+						<li> subject (dc:subject) = keywords </li>
 					  </ul>
 					  <h6>Issues</h6>
 					  <ul>
-					  	<li>In the photograph there is a signal: What is written on the signal is strictly related to West and East Berlin split (main point of our project). 
-					  		Taking this case as an example (but we will find other similar aspects in the following items) and thinking about our Conceptual Model, 
-					  		we can imagine to develop a particultar metadata tag that contains everything is written in an image (specifying also some other characteristics).</li>
-					  	<li>Some metadata fields considered required by Google Standard are not fulfilled (ex: <i>itemid</i>)</li>
+					  	<li>In the photograph there is a signal: No metadata about it</li>
+					  	<li>Some metadata fields considered required by Google Standard are not fulfilled (ex: <i>itemid</i>), or maybe not showed up to the final user.</li>
 					  </ul>
                   </div>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
