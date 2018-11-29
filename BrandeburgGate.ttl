@@ -10,19 +10,22 @@
 @prefix time: <https://www.w3.org/TR/owl-time/> .
 
 
-<https://abitlod.github.io/AbitLOD/BrandeburgGate.ttl>
-	dbo:abstract "The Brandenburg Gate (German: Brandenburger Tor) is an 18th-century neoclassical monument in Berlin, and one of the best-known landmarks of Germany... " ; 
+<https://abitlod.github.io/AbitLOD/BrandeburgGate>
+	dbo:abstract "The Brandenburg Gate (German: Brandenburger Tor) is an 18th-century neoclassical monument in Berlin, and one of the best-known landmarks of Germany. It is built on the site of a former city gate that marked the start of the road from Berlin to the town of Brandenburg an der Havel. It is located in the western part of the city centre of Berlin within Mitte, at the junction of Unter den Linden and Ebertstraße, immediately west of the Pariser Platz. One block to the north stands the Reichstag building that houses the German parliament (Bundestag). The gate is the monumental entry to Unter den Linden, the renowned boulevard of linden trees, which led directly to the royal City Palace of the Prussian monarchs. It was commissioned by King Frederick William II of Prussia as a sign of peace and built by architect Carl Gotthard Langhans from 1788 to 1791. Having suffered considerable damage in World War II, the Brandenburg Gate was restored from 2000 to 2002 by the Stiftung Denkmalschutz Berlin (Berlin Monument Conservation Foundation). During the post-war Partition of Germany, the gate was isolated and inaccessible immediately next to the Berlin Wall. The area around the gate was featured most prominently in the media coverage of the tearing down of the wall in 1989, and the subsequent German reunification in 1990. Throughout its existence, the Brandenburg Gate was often a site for major historical events and is today considered not only as a symbol of the tumultuous history of Europe and Germany, but also of European unity and peace. (en)" ;" ; 
 	dbo:type dbr:City_gate ;
 	geo:lat '8656.26.00' ;
 	geo:long  '6309.15.00' ;
 	schema:address 'Pariser Platz, 10117 Berlin, Germania' ;
-	schema:hasMap <https://www.google.com/maps/...> ;
+	schema:hasMap <https://www.google.com/maps/place/Brandenburg+Gate/@52.5162746,13.3755154,17z/data=!3m1!4b1!4m5!3m4!1s0x47a851c655f20989:0x26bbfb4e84674c63!8m2!3d52.5162746!4d13.3777041> ;
 	schema:isAccessibleForFree 'True'^^xsd:boolean ;
 	schema:publicAccess 'True'^^xsd:boolean ; 
 	dbo:district <http://dbpedia.org/page/Mitte> ; 
 	dbo:location <http://dbpedia.org/page/Berlin> ;
 	dbo:location <http://dbpedia.org/page/Germany> ; 
-	schema:containedInPlace <http://dbpedia.org/page/East_Berlin> .
+	schema:containedInPlace <http://dbpedia.org/page/East_Berlin> ;
+	owl:differentFrom <http://dbpedia.org/page/Berlin_Gate> ;
+	owl:sameAs <http://wikidata.dbpedia.org/resource/Q82425> ; 
+	owl:sameAs <http://yago-knowledge.org/resource/Brandenburg_Gate> . 
 
 <http://dbpedia.org/page/Germany>
 	a dbo:country .
