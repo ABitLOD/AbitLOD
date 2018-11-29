@@ -1,0 +1,17 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rel: <http://www.perceive.net/schemas/relationship/> .
+@prefix lido: <http://www.lido-schema.org/schema/v1.0/lido-v1.0.xsd/> .
+@prefix frbr: <http://purl.org/vocab/frbr/core#/> .
+
+
+<https://abitlod.github.io/AbitLOD/Trabant.ttl>
+
+
+<http://books.example.com/works/45U8QJGZSQKDH8N> a frbr:Work ;
+     dc:creator "Wil Wheaton"@en ;
+     dc:title "Just a Geek"@en ;
+     frbr:realization <http://books.example.com/products/9780596007683.BOOK>,
+         <http://books.example.com/products/9780596802189.EBOOK> .
+
