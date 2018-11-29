@@ -3,7 +3,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rel: <http://www.perceive.net/schemas/relationship/> .
 
-<https://abitlod.github.io/AbitLOD/PeterFechter>
+<https://abitlod.github.io/AbitLOD/PeterFechter.ttl>
 	a core:Person ; 
 	core:dateOfBirth '1944-01-14'^^xsd:date ;
 	core:occupation 'bricklayer' ;

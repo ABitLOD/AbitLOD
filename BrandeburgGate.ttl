@@ -10,7 +10,7 @@
 @prefix time: <https://www.w3.org/TR/owl-time/> .
 
 
-<https://abitlod.github.io/AbitLOD/BrandeburgGate>
+<https://abitlod.github.io/AbitLOD/BrandeburgGate.ttl>
 	dbo:abstract "The Brandenburg Gate (German: Brandenburger Tor) is an 18th-century neoclassical monument in Berlin, and one of the best-known landmarks of Germany... " ; 
 	dbo:type dbr:City_gate ;
 	geo:lat '8656.26.00' ;

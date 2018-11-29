@@ -7,7 +7,7 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#sameAs> .
 @prefix gold: <http://purl.org/linguistics/gold/antonym> .
 
-<https://abitlod.github.io/AbitLOD/ColdWar>
+<https://abitlod.github.io/AbitLOD/ColdWar.ttl>
 	a dbo:HistoricalPeriod ; 
 	time:hasBeginning '1947'^^xsd:date ;
 	time:hasEnd '1991'^^xsd:date ; 
