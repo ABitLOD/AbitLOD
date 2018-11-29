@@ -1,0 +1,38 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/TR/owl-ref/> .
+@prefix time: <https://www.w3.org/TR/owl-time/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix schema: <https://schema.org/Place> . 
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix dbr: <http://dbpedia.org/resource/> . 
+@prefix time: <https://www.w3.org/TR/owl-time/> .
+
+
+<https://abitlod.github.io/AbitLOD/BrandeburgGate>
+	dbo:abstract "The Brandenburg Gate (German: Brandenburger Tor) is an 18th-century neoclassical monument in Berlin, and one of the best-known landmarks of Germany... " ; 
+	dbo:type dbr:City_gate ;
+	geo:lat '8656.26.00' ;
+	geo:long  '6309.15.00' ;
+	schema:address 'Pariser Platz, 10117 Berlin, Germania' ;
+	schema:hasMap <https://www.google.com/maps/...> ;
+	schema:isAccessibleForFree 'True'^^xsd:boolean ;
+	schema:publicAccess 'True'^^xsd:boolean ; 
+	dbo:district <http://dbpedia.org/page/Mitte> ; 
+	dbo:location <http://dbpedia.org/page/Berlin> ;
+	dbo:location <http://dbpedia.org/page/Germany> ; 
+	schema:containedInPlace <http://dbpedia.org/page/East_Berlin> .
+
+<http://dbpedia.org/page/Germany>
+	a dbo:country .
+
+<http://dbpedia.org/page/Berlin>
+	a dbo:city .
+	
+<https://abitlod.github.io/AbitLOD/Triple>  rdf:type  rdf:Statement .
+<https://abitlod.github.io/AbitLOD/Triple>  rdf:subject <https://abitlod.github.io/AbitLOD/BrandeburgGate> .
+<https://abitlod.github.io/AbitLOD/Triple>  rdf:predicate schema:containedInPlace  .
+<https://abitlod.github.io/AbitLOD/Triple>  rdf:object <http://dbpedia.org/page/East_Berlin> .
+<https://abitlod.github.io/AbitLOD/Triple>  time:hasBeginning '1949'^^xsd:date . 
+<https://abitlod.github.io/AbitLOD/Triple>  time:hasEnd '9/11/1989'^^xsd:date . 

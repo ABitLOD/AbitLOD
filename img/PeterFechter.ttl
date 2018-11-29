@@ -1,0 +1,12 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rel: <http://www.perceive.net/schemas/relationship/> .
+
+<https://abitlod.github.io/AbitLOD/PeterFechter>
+	a core:Person ; 
+	core:dateOfBirth '1944-01-14'^^xsd:date ;
+	core:occupation 'bricklayer' ;
+            core:knownFor 'He was shot dead trying to escape from DDR' ;
+            core:placeOfDeath 'Checkpoint Charlie, 10117 Berlin, Germany' ;
+            core:dateOfDeath '1962-08-17'^^xsd:date . 
