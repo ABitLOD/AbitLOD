@@ -591,7 +591,7 @@
       </div>
     </div>
 
-    <!-- ITEM 3 MODALE-->
+    <!-- ITEM 3 MODALE : non si può dividere il cielo-->
     <div class="portfolio-modal modal fade" id="itemModal3" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
@@ -604,19 +604,77 @@
             <div class="row">
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
-                  <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/03-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                  <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Finish</li>
-                    <li>Category: Identity</li>
-                  </ul>  
+
+                  <h2 class="text-uppercase"><a href="https://opac.sbn.it/opacsbn/opaclib?saveparams=false&db=solr_iccu&select_db=solr_iccu&searchForm=opac%2Ficcu%2Ffree.jsp&resultForward=opac%2Ficcu%2Ffull.jsp&do_cmd=search_show_cmd&x=0&y=0&nentries=1&rpnlabel=+Tutti+i+campi+%3D+non+si+pu%C3%B2+dividere+il+cielo+%28parole+in+AND%29+&rpnquery=%2540attrset%2Bbib-1%2B%2B%2540attr%2B1%253D1016%2B%2540attr%2B4%253D6%2B%2522non%2Bsi%2Bpu%25C3%25B2%2Bdividere%2Bcielo%2522&&fname=none&from=1">Non si può dividere il cielo: Storie dal muro di Berlino</a></h2>
+                  <p class="item-intro text-muted">A Book by Gianluca Falanga</p>
+                  <p class="item-intro text-muted">Taken From <i><b>Opac SBN</b></i></p>
+                  <img class="img-fluid d-block mx-auto" src="img/10items/Segregation(1).png" alt="">
+                  <div style="text-align:left">
+                    <h6>Why do we choose this item? </h6>
+                    <p>We found the item very explanatory regarding the segregation topic: the book tells the story of men and women who lived in the divided Berlin, that courageously challenged and denounced what the Berliner Mauer represented.</p>
+                    <h6>What about Metadata and Standards?</h6>
+                    <p>The bibliographic form inside the website makes available the “ISBD”, “Etichette”, “Unimarc” and “Marc21” format standards.</p>
+                    <ul> <b>The <a href="https://www.ifla.org/files/assets/cataloguing/isbd/isbd-cons_20110321.pdf">ISBD Standard</a>, articulated in 9 areas of description: </b>
+                      <li><i>1_Title and Statement of Responsability Area</i></li>
+                      <i>1.1 Proper title =</i> <u>Non si può dividere il cielo : storie dal muro di Berlino </u>( Mandatory)
+                      <br><i>1.4 Statement of Responsability =</i> <u>Gianluca Falanga </u>(Mandatory)</br>
+                      <li><i>2_Ediition Area</i></li>
+                      <i>2.1 Edition Statement =</i> <u> 2 ed </u>( Mandatory)
+                      <li><i>4_ Publication, Production, Distribution etc. Area</i></li>
+                      <i>4.1 Place of publication, production and distribution =</i> <u>Roma </u>( Mandatory)
+                      <br><i>4.2 Name of publisher, producer and distributor =</i> <u>Carocci </u>(Mandatory)</br>
+                      <br><i>4.3 Date of publication, production and distribution =</i> <u>2017 </u>(Mandatory)</br>
+                      <li><i>5_ Material Description Area</i></li>
+                      <i>5.1 Extent =</i> <u> 256 p. </u>
+                      <br><i>5.2 Dimensions =</i> <u>22 cm </u></br>
+                      <li><i>6_ Series and Multipart Monographic Resource Area  </i></li>
+                      <i>6.1 Proper title of a series of multipart monographic resource =</i> <u> Quality Paperbacks </u> (Mandatory if available)
+                      <br><i>6.6 Numbering within a series or multipart monographic resource</i> <u> 493 </u></br>
+                      <li><i>8_ Resource Identifier</i></li>
+                      <i>8.1 Qualification to identifier =</i> <u> ISBN 978-88-430-8597-2 ; 2017-2124 </u>
+                    </ul>
+                    <ul> <b>The <a href="https://www.ifla.org/files/assets/uca/publications/unimarc-holdings-format.pdf">UNIMARC Standard</a>, also articulated in 9 areas of description: </b>
+                      <li><i>0_Identification block</i></li>
+                      <i>001 Record Identifier</i> ( Mandatory)
+                      <br><i>003 Persistent Record Identifier</i>
+                      <br><i>005 Version identifier</i>
+                      <br><i>010 International Standard book number (ISBN)</i>
+                      <br><i>020 National Bibliography number</i>
+
+                      <li><i>1_Coded information block</i></li>
+                      <i>100 General processing data</i> (Mandatory)
+                      <br><i>101 Language of the item</i> (Mandatory)
+                      <br><i>102 Country of Publication or Production</i>
+
+                      <li><i>2_Descriptive Information block</i></li>
+                      <i>200 Title and statement of responsability</i> (Mandatory)
+                      <br><i>205 Edition Statement</i>
+                      <br><i>210 Publication, Distribution</i>
+                      <br><i>215 Physical Description</i>
+
+                      <li><i>4_Linking Entry Block</i></li>
+                      <i>410 Series</i>
+
+                      <li><i>6_Subject Analysis and Bibliographic History Block</i></li>
+                      <i>606 Topical name used as subject</i>
+                      <br><i>676 Dewey Decimal Classification</i>
+
+                      <li><i>7_Responsibility Block</i></li>
+                      <i>700 Personal name - Primary Responsibility</i>
+
+                      <li><i>8_International Use block</i></li>
+                      <i>801 Originating Source</i> (Mandatory)
+                    </ul>
+                    <h6>Issues</h6>
+                    <ul>
+                      <li>The ISBD form - at least the one visible to the user - misses the 0.1 Area (Content form) and 0.2 (Media type), which are mandatory
+                      </li>
+                      <li> It’s impossible to find out which is the “Etichette” form standard</li>
+                    </ul>
+                  </div>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fas fa-times"></i>
-                    Close Item</button>
+                    Close Project</button>
                 </div>
               </div>
             </div>
@@ -907,6 +965,116 @@
         </div>
       </div>
     </div>
+    <!-- ITEM 8 MODALE -->
+    <div class="portfolio-modal modal fade" id="itemModal8" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+
+                  <h2 class="text-uppercase"><a href="http://www.culturaitalia.it/opencms/opencms/system/modules/com.culturaitalia_stage.liberologico/templates/viewItem.jsp?language=it&case=&id=oai%3Awww.internetculturale.it%2Fmetaoaicat%3Aoai%3Abncf.firenze.sbn.it%3A21%3AFI0098%3AArsbni1%3ASBL0267402">Storia della guerra fredda - Da Yalta al disarmo</a></h2>
+                  <p class="item-intro text-muted">A book by Joseph Morray</p>
+                  <p class="item-intro text-muted">Taken From <i><b>Cultura Italia</b></i></p>
+                  <img class="img-fluid d-block mx-auto" src="img/10items/ColdWar(2).png" alt="" style="width:60%">
+                  <div style="text-align:left">
+                    <h6>Why do we choose this item? </h6>
+                    <p>The book inserted is thought to explain the historical period and the reasons why the Berliner Mauer was built. We assume that a book that covers the entire time frame of the Cold War can be an excellent way to introduce such a complex theme into our model.</p>
+                    <h6>What about Metadata and Standards?</h6>
+                    <p>The web page of the item contains a direct link  “Pico” to the XML file in which the metadata are expressed.
+                      The metadata scheme used are <a href="http://www.culturaitalia.it/opencms/export/sites/culturaitalia/attachments/documenti/picoap/picoap1.0.xml">PICO</a>, a Dublin Core Application Profile specifically create for the Cultura Italia portal, wich extend the terminology of the Qualified DC in order to describe all the varied resources in it at best, and DUBLIN CORE itself</p>
+                    <ul> <b>PICO / DUBLIN CORE</b>
+                      <li><i>dc:title = </i> <u>Storia della guerra fredda: da Yalta al disarmo</u></li>
+                      <li><i>dc:creator = </i> <u>Morray, Joseph</u></li>
+                      <li><i>dc:publisher = </i> <u>Roma: Editori riuniti</u></li>
+                      <li><i>dc:contributor = </i> <u>Giacchetti, Romano</u></li>
+                      <li><i>dc:date = </i> <u>1962</u></li>
+                      <li><i>dc:language = </i> <u>ita</u></li>
+                      <li><i>dc:type = </i> <u>Text; Physical Object; testo a stampa</u></li>
+                      <li><i>dc:subject = </i> <u>book heritage</u></li>
+                      <li><i>dc: isReferencedBy = </i> <u>URL=http://www.internetculturale.it/jmms/iccuviewer/iccu.jsp
+                      </u></li>
+                      <li><i>dc:accessRights = </i> <u>uso riservato all'interno dell'Istituzione</u></li>
+                      <li><i>dc:identifier = </i> <u>info:sbn/SBL0267402              </u></li>
+                      <li><i> pico: isDigitisedBy = </i> <u>http://www.bncf.firenze.sbn.it/pagina.php
+                      </u></li>
+                      <li><i>pico: preview= </i> <u>URL=http://www.internetculturale.it/jmms/thumbnailProxy.jsp
+                      </u></li>
+                    </ul>
+                  </div>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fas fa-times"></i>
+                    Close Project</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ITEM 9 MODALE -->
+    <div class="portfolio-modal modal fade" id="itemModal9" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+
+                  <h2 class="text-uppercase"><a href="https://fhxb-museum.de/fhxb_lp/objekt.php?o=8573&m=3012">Scrapbook: Friedrichshain 1970iger Jahre</a></h2>
+                  <p class="item-intro text-muted">An album by Haupt Jochen photographer</p>
+                  <p class="item-intro text-muted">Taken From <i><b>FHXB Friedrichshain-Kreuzberg Museum
+                  </b></i></p>
+                  <img class="img-fluid d-block mx-auto" src="img/10items/ColdWar(3).png" alt="" style="width:60%">
+                  <div style="text-align:left">
+                    <h6>Why do we choose this item? </h6>
+                    <p>We found the item very interesting from different point of views: first of all it is very explanatory of the Cold War time period, exposing more than ninety photographs of East Berlin and its residents in the ‘70s. Moreover, it’s a very challenging item from a metadata point of view: because of its nature as a photo album, it is a physical object that contains writings written on pieces of paper, and also photographs, which make up another item by themselves.
+                    </p>
+                    <h6>What about Metadata and Standards?</h6>
+                    <p>In the blog of the website the research team of the Institution states that they have completed the metadation of all the items, but without saying which was the chosen standard. For this, given the nature of the item, we have decided to use the <a href="https://www.loc.gov/standards/vracore/schemas.html">VRA CORE</a> Metadata standard, which, is a metadata standard for the description of works of visual culture. We found it very interesting because it allows the description of works of art, focusing on work, collection or image.
+                    </p>
+                    <ul> <b>VRA CORE</b>
+                      <li><i> Collection =   id: </i><u>2010/299</u> <u></u> source: <u>Collection Heimatmuseum Friedrichshain</u></li>
+                      <li><i>Worktype = </i> <u>Photo album</u></li>
+                      <li><i>Title = </i> <u>Scrapbook: Friedrichshain 1970iger Jahre</u></li>
+                      <li><i>Description = </i> <u>Scrapbook with material from Friedrichshain of the 1970s. Publisher was the council of the district of Friedrichshain, from which the texts were written. The photos are from Jochen Haupt. It contains photos of memorial plaques, Karl-Marx-Allee, Frankfurter Allee, Ostbahnhof, old buildings before the demolition and new buildings around the Ostbahnhof, infrastructure facilities such as indoor swimming pool, child facilities, Feierabendheim, schools and Altbaumodernisierung, art in the urban space, monuments in the Volkspark, from the hospital Friedrichshain and cultural events in the Volkspark
+                      </u></li>
+                      <li><i>Measurements= </i> <u> 30 W 25 H</u></li>
+                      <li><i>Rights = </i> <u>FHXB Friedrichshain-Kreuzberg Museum
+                      </u></li>
+                      <li><i>Name (subelement of Agent): = </i> <u>Haupt, Jochen</u></li>
+                      <li><i>earliestDate (subelement of Date = </i> <u>1961</u></li>
+                      <li><i>latestDate (subelement of Date) = </i> <u>1989
+                      </u></li>
+                    </ul>
+                    <h6>Issues</h6>
+                    <ul>
+                      <li>The Website doesn’t have an English translation for both the records and the descriptions</li>
+                      <li>In the perspective of a future implementation: we could describe both the collection (album), the single images, adding to each one the description of the original author’s notes that are added to the photos of the album - which are now NOT described on the website - using the “Inscritpion” element of VRA</li>
+                      <li>We couldn’t find the metadata standard used by the institution for its items</li>
+                    </ul>
+                  </div>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fas fa-times"></i>
+                    Close Project</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- ITEM 10 MODALE -->
     <div class="portfolio-modal modal fade" id="itemModal10" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog">
@@ -1138,7 +1306,10 @@
 						  the CIDOC CRM.
 					  </p>
 					  <h6>WHAT</h6>
-					  <p>La trabant.</p>
+					  <ul><li>Historical objects can be produced, manifactured, and sometimes even re-produced. Conceptually, their production from a project or symbolic imitations of iconic historical objects can be described by <a href="">FRBR</a>. "Iconic" objects that are Museal replicas of real objects find expression in FRBR separating the replica from what is its original with the property "imitationOf". The original objects, in turn, are a specific model of realization of some general kind of objects. These levels of realization can be expressively described by FRBR.
+                      </li><li>
+                        The LIDO ontology, furthermore, guarantees a powerful expression of event-based descriptions of cultural objects and their history. Object's creation, developments, changes and movements can find expression in this powerful standard that can connect these aspects to places, actors, materials, measurements, general descriptions, processes, subjects and many more. These descriptions can be wrapped in sets and complexes indefinitely, connecting the objects features to relevant historical entities. </ul>
+                    </li>
                   </div>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fas fa-times"></i>
