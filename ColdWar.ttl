@@ -11,7 +11,9 @@
 	a dbo:HistoricalPeriod ; 
 	time:hasBeginning '1947'^^xsd:date ;
 	time:hasEnd '1991'^^xsd:date ; 
-	time:intervalIn '1947-1991' ;
-        time:inside '1989'^^xsd:date ;
+	time:intervalIn time:Interval ;
         owl:sameAs <http://dbpedia.org/page/Cold_War> ;
         gold:antonym <http://dbpedia.org/class/yago/HotWar113981885> .
+
+<time:Interval>
+       time:inside '1989'^^xsd:date .
