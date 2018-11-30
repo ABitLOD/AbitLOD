@@ -1342,21 +1342,21 @@
                 <div class="modal-body" style="text-align:left">
                   <!-- Project Details Go Here -->
                   <h6>WHO</h6>
-					<p>unimarc: 200 Title and Statement of resposability = ISBD: 1.4 Statement of resposibility = dc:creator = vra:name = google:creator = frbr:creator = lido:actorInRoleComplexType</p> 
+					<p>unimarc: 200 Title and Statement of resposability = ISBD: 1.4 Statement of resposibility = dc:creator = vra:name = google:creator = frbr:creator = lido:actorInRoleComplexType = edm:Agent</p> 
 					<p>ISBD: 4.1 Name of Publisher = unimarc:Publication, Distribution = dc:publisher = frbr:resposibleEntity = lido:actorInRoleComplexType</p>
 					<h6>WHERE</h6>			
 					<p>ISBD: 4.2 Place of Publication = google:provenance = ebucore:Coverage,Country</p> 					
-					<p>lode:inSpace = lido:eventPlace</p>					
+					<p>lode:inSpace = lido:eventPlace = edm:Event + edm:Place</p>					
 					<h6>WHEN</h6>					
 					<p>ISBD: 4.3 Date of Publication = unimarc: 210 Publication, Distribution = dc:Date = vra:earliestDate,latestDate = google:dateCreated = ebucore:dateCreated</p>				
-					<p>lode:atTime = lido:datesComplexType</p>				
+					<p>lode:atTime = lido:datesComplexType = edm:Event + edm:TimeSpan</p>				
 					<h6>WHAT</h6>				
 					<p>ISBD: 1.1 Proper Tile = unimarc: 200 Title and Statement of Responsibilty = dc:title = vra:title = google:title = ebucore:originalTitle = og:title = ebucore:alternativeTitle</p>			
 					<p>lido:classificationWrapper = ISBD:Qualification to Identifier = unimarc: 010 International Standard book numeber (ISBN) = dc:identifier = vra:collectionId</p> 
 					<p>dc:originalLanguage = ebucore:dubbedLanguage = og:locale </p>			
-					<p>google:subject = frbr:subject = lido:subjectWrap </p>			
+					<p>google:subject = frbr:subject = lido:subjectWrap = edm:subject</p>			
 					<p>ebucore:summary = og:description = lode:illustrate = lido:objectDescriptionWrap </p>			
-					<p>ebucore:DepictedEvent = lode:Event </p>
+					<p>ebucore:DepictedEvent = lode:Event = edm:Event</p>
                   </div>
                   <button class="btn btn-primary" data-dismiss="modal" type="button"> 	
                     <i class="fas fa-times"></i>Close</button>       
