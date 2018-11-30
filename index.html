@@ -613,7 +613,7 @@
                     <h6>Why do we choose this item? </h6>
                     <p>We found the item very explanatory regarding the segregation topic: the book tells the story of men and women who lived in the divided Berlin, that courageously challenged and denounced what the Berliner Mauer represented.</p>
                     <h6>What about Metadata and Standards?</h6>
-                    <p>The bibliographic form inside the website makes available the “ISBD”, “Etichette”, “Unimarc” and “Marc21” format standards.</p>
+                    <p>The bibliographic form inside the website makes available the &#34;ISBD&#34;, &#34;Etichette&#34;,&#34;Unimar&#34; and &#34;Marc21&#34; format standards.</p>
                     <ul> <b>The <a href="https://www.ifla.org/files/assets/cataloguing/isbd/isbd-cons_20110321.pdf">ISBD Standard</a>, articulated in 9 areas of description: </b>
                       <li><i>1_Title and Statement of Responsability Area</i></li>
                       <i>1.1 Proper title =</i> <u>Non si può dividere il cielo : storie dal muro di Berlino </u>( Mandatory)
@@ -669,7 +669,7 @@
                     <ul>
                       <li>The ISBD form - at least the one visible to the user - misses the 0.1 Area (Content form) and 0.2 (Media type), which are mandatory
                       </li>
-                      <li> It’s impossible to find out which is the “Etichette” form standard</li>
+                      <li> It is impossible to find out which is the &#34;Etichette&#34; form standard</li>
                     </ul>
                   </div>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
@@ -980,7 +980,7 @@
                     <h6>Why do we choose this item? </h6>
                     <p>The book inserted is thought to explain the historical period and the reasons why the Berliner Mauer was built. We assume that a book that covers the entire time frame of the Cold War can be an excellent way to introduce such a complex theme into our model.</p>
                     <h6>What about Metadata and Standards?</h6>
-                    <p>The web page of the item contains a direct link  “Pico” to the XML file in which the metadata are expressed.
+                    <p>The web page of the item contains a direct link &#34;Pico&#34; to the XML file in which the metadata are expressed.
                       The metadata scheme used are <a href="http://www.culturaitalia.it/opencms/export/sites/culturaitalia/attachments/documenti/picoap/picoap1.0.xml">PICO</a>, a Dublin Core Application Profile specifically create for the Cultura Italia portal, wich extend the terminology of the Qualified DC in order to describe all the varied resources in it at best, and DUBLIN CORE itself</p>
                     <ul> <b>PICO / DUBLIN CORE</b>
                       <li><i>dc:title = </i> <u>Storia della guerra fredda: da Yalta al disarmo</u></li>
@@ -1053,9 +1053,9 @@
                     </ul>
                     <h6>Issues</h6>
                     <ul>
-                      <li>The Website doesn’t have an English translation for both the records and the descriptions</li>
-                      <li>In the perspective of a future implementation: we could describe both the collection (album), the single images, adding to each one the description of the original author’s notes that are added to the photos of the album - which are now NOT described on the website - using the “Inscritpion” element of VRA</li>
-                      <li>We couldn’t find the metadata standard used by the institution for its items</li>
+                      <li>The Website does not have an English translation for both the records and the descriptions</li>
+                      <li>In the perspective of a future implementation: we could describe both the collection (album), the single images, adding to each one the description of the original author's notes that are added to the photos of the album - which are now NOT described on the website - using the &#34;Inscritpion&#34; element of VRA</li>
+                      <li>We could not find the metadata standard used by the institution for its items</li>
                     </ul>
                   </div>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
@@ -1292,11 +1292,13 @@
 						</ul>
 						</p>
 					  <h6>WHEN</h6>
-					  <p>LODE: <br>
-						  LIDO: Its strength lies in its ability to support the full range of descriptive information about museum
-						  objects. It can be used for all kinds of object, e.g. art, cultural, technology and natural science. It is made up of a nested set of ‘wrapper’ and ‘set’ elements which structure records in
-						  culturally significant ways. An important part of its design is the concept of events taken from
-						  the CIDOC CRM.
+					  	<p>Since we are dealing with items and concepts really related to a particular historical time period (i.e cold war) and moments (for example YYYY or DD/MM/YYYY) inside it, we have decided to treat time in two ways: as a date, and as an historical period.
+					  	<ul>
+							<li><b>DATES:</b> For dates, we have decided to use the format recommended by <a href="https://www.w3.org/QA/Tips/iso-date"> W3C</a>, in particular, the European-style one (i.e DD/MM/YYYY). This would be used to describe exact dates, such as, talking about our model, the day death of Peter Fechter.
+							</li>
+							<li><b>HISTORICAL PERIOD: </b> We want also to point out, in our model, the historical period of a resource. In order to do so, we have decided to use the <a href="https://www.w3.org/TR/owl-time/#time:Instant"> Time Ontology</a>, which has classes and properties that enable the description of ranges of time and moments of time inside these ranges.
+							</li>
+						</ul>
 					  </p>
 					  <h6>WHAT</h6>
 					  <ul><li>Historical objects can be produced, manifactured, and sometimes even re-produced. Conceptually, their production from a project or symbolic imitations of iconic historical objects can be described by <a href="">FRBR</a>. "Iconic" objects that are Museal replicas of real objects find expression in FRBR separating the replica from what is its original with the property "imitationOf". The original objects, in turn, are a specific model of realization of some general kind of objects. These levels of realization can be expressively described by FRBR.
